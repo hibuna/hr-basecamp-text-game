@@ -14,9 +14,6 @@ player = Globals.player()
 player.environment = Environments.prologue_cockpit()
 player.effects = [Effects.full_bladder()]
 
-player.inventory = [Items.fuel_can()]
-player.environment = Environments.engine_room()
-
 command_validator = CommandValidator(
     player=player,
     command_object_r=Resolvers.command_object(),
